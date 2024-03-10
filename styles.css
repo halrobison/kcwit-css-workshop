@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+li,
+aside,
+footer,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+body {
+  background-color: #FFEADD;
+  font-family: "Mulish", sans-serif;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+h1,
+h2,
+h3 {
+  color: #FF6666;
+  font-family: "Abril Fatface", serif;
+}
+
+h2 {
+  padding-top: 30px;
+  margin-left: 15px;
+}
+
+p {
+  font-size: 1.25em;
+  padding-bottom: 30px;
+}
+
+nav {
+  background-color: #ffffff;
+  ;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+nav a {
+  color: #FF8989;
+  text-decoration: none;
+  font-family: "Abril Fatface", serif;
+}
+
+nav a:hover {
+  color:#FF6666
+}
+
+footer {
+  color: #FF8989;
+  padding-top: 20px;
+  height: 50px;
+  text-align: center;
+  font-family: "Abril Fatface", serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+main li:hover {
+  border: 2px solid white; 
+}
+
+.navbar ul {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 10px;
+  justify-content: right; 
+  justify-items: center;
+  font-size: 1.5em; 
+}
+
+.drinks {
+  background-color: #FCAEAE;
+  padding-bottom: 60px;
+}
+
+.drinks h2 {
+  font-size: 3em;
+}
+
+.drinks li {
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-top: 1px dotted white;
+}
+
+.hero {
+  text-align: center; 
+}
+
+.hero-text h1 {
+  font-size: 5em;
+}
+
+.hero-text h2 {
+  font-size: 1.5em; 
+}
+
+h3.beverage {
+  font-size: 1.5em; 
+}
+
+.beverage::before {
+  font: var(--fa-font-solid);
+  content: "\f57b";
+  color: #FFEADD
+}
