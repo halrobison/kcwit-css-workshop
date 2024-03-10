@@ -129,5 +129,5 @@ h3.beverage {
 .beverage::before {
   font: var(--fa-font-solid);
   content: "\f57b";
-  color: #FFEADD
+  color: #FFEADD; 
 }
